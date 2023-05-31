@@ -2,6 +2,11 @@
 
 This is an official starter Turborepo.
 
+## 任务
+
+Follow 这个教程：https://turbo.build/repo/docs/handbook/tools/storybook
+
+
 ## Using this example
 
 Run the following command:
