@@ -1,5 +1,5 @@
 {
-    "name": "ui",
+    "name": "@company-name/ui",
     "version": "0.0.0",
     "main": "./index.tsx",
     "types": "./index.tsx",
@@ -11,9 +11,9 @@
         "@types/react": "^18.2.0",
         "@types/react-dom": "^18.2.0",
         "eslint": "^7.32.0",
-        "eslint-config-custom": "workspace:*",
+        "@company-name/eslint-config-custom": "workspace:*",
         "react": "^18.2.0",
-        "tsconfig": "workspace:*",
+        "@company-name/tsconfig": "workspace:*",
         "typescript": "^5.1.3"
     }
 }
