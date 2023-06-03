@@ -13,8 +13,9 @@ export const Button = ({
 }: Props) => {
     return (
         <button
+            className="bg-gray-900 text-lg text-white"
             style={{
-                backgroundColor: primary ? "red" : "blue",
+                // backgroundColor: primary ? "red" : "blue",
                 fontSize: size === "large" ? "24px" : "14px",
             }}
         >
