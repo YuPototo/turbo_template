@@ -4,6 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "//dev": "echo 'Compiles and serves a development build of your Storybook that reflects your source code changes in the browser in real time.",
     "dev": "storybook dev -p 6006",
     "build": "build-storybook",
     "build-storybook": "storybook build"
