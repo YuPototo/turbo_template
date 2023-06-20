@@ -3,28 +3,28 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "dev": "next dev",
+    "lint": "next lint",
+    "start": "next start"
   },
   "dependencies": {
+    "@company-name/database": "workspace:*",
+    "@company-name/ui": "workspace:*",
     "next": "^13.4.1",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "@company-name/ui": "workspace:*",
-    "@company-name/database": "workspace:*"
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
+    "@company-name/eslint-config-custom": "workspace:*",
+    "@company-name/tailwind-config": "workspace:*",
+    "@company-name/tsconfig": "workspace:*",
     "@types/node": "^17.0.12",
     "@types/react": "^18.0.22",
     "@types/react-dom": "^18.0.7",
     "autoprefixer": "^10.4.14",
-    "@company-name/eslint-config-custom": "workspace:*",
     "postcss": "^8.4.24",
-    "@company-name/tailwind-config": "workspace:*",
     "tailwindcss": "^3.3.2",
-    "@company-name/tsconfig": "workspace:*",
     "typescript": "^5.1.3"
   }
 }

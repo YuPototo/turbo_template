@@ -1,8 +1,8 @@
 {
   "name": "@company-name/prettier-config",
   "version": "0.0.0",
-  "main": "index.js",
   "license": "MIT",
+  "main": "index.js",
   "dependencies": {},
   "devDependencies": {
     "@trivago/prettier-plugin-sort-imports": "4.1.1",
