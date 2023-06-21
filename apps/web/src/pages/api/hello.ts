@@ -1,7 +1,7 @@
 // Next.js API route support: https://nextjs.org/docs/api-routes/introduction
 import type { NextApiRequest, NextApiResponse } from "next";
 
-import { PrismaClient } from "@company-name/database";
+import { PrismaClient } from "@company-name/prisma";
 
 type Data = {
   posts: any[];

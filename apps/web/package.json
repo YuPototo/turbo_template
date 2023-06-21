@@ -9,7 +9,7 @@
     "start": "next start"
   },
   "dependencies": {
-    "@company-name/database": "workspace:*",
+    "@company-name/prisma": "workspace:*",
     "@company-name/ui": "workspace:*",
     "next": "^13.4.1",
     "react": "^18.2.0",

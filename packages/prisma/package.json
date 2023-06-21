@@ -1,5 +1,5 @@
 {
-  "name": "@company-name/database",
+  "name": "@company-name/prisma",
   "version": "0.0.0",
   "main": "./index.ts",
   "types": "./index.ts",
