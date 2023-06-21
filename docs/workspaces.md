@@ -14,5 +14,5 @@ monorepo:
   - eslint-config: eslint preset
   - prettier-config: prettier preset
   - tailwind-config: tailwind preset
-  - tsconfig: tsconfig preset
+  - ts-config: tsconfig preset
   - ui: ui components

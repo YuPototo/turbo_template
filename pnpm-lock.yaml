@@ -136,9 +136,9 @@ importers:
       '@company-name/tailwind-config':
         specifier: workspace:*
         version: link:../../packages/tailwind-config
-      '@company-name/tsconfig':
+      '@company-name/ts-config':
         specifier: workspace:*
-        version: link:../../packages/tsconfig
+        version: link:../../packages/ts-config
       '@types/node':
         specifier: ^17.0.12
         version: registry.npmmirror.com/@types/node@17.0.45
@@ -203,16 +203,16 @@ importers:
 
   packages/tailwind-config: {}
 
-  packages/tsconfig: {}
+  packages/ts-config: {}
 
   packages/ui:
     devDependencies:
       '@company-name/eslint-config':
         specifier: workspace:*
         version: link:../eslint-config
-      '@company-name/tsconfig':
+      '@company-name/ts-config':
         specifier: workspace:*
-        version: link:../tsconfig
+        version: link:../ts-config
       '@types/react':
         specifier: ^18.2.0
         version: 18.2.5
