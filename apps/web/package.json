@@ -16,7 +16,7 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "@company-name/eslint-config-custom": "workspace:*",
+    "@company-name/eslint-config": "workspace:*",
     "@company-name/tailwind-config": "workspace:*",
     "@company-name/tsconfig": "workspace:*",
     "@types/node": "^17.0.12",

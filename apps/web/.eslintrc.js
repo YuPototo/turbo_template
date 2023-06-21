@@ -1,4 +1,4 @@
 module.exports = {
   root: true,
-  extends: ["@company-name/eslint-config-custom"],
+  extends: ["@company-name/eslint-config"],
 };

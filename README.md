@@ -17,7 +17,7 @@ This Turborepo includes the following packages/apps:
 - `web`: another [Next.js](https://nextjs.org/) app
 - `storybook`: a [Storybook](https://storybook.js.org/) app
 - `ui`: a stub React component library shared by both `web` and `storybook` workspace
-- `eslint-config-custom`: `eslint` configurations (includes `eslint-config-next` and `eslint-config-prettier`)
+- `eslint-config`: `eslint` configurations (includes `eslint-config-next` and `eslint-config-prettier`)
 - `tsconfig`: `tsconfig.json`s used throughout the monorepo
 - `tailwind`: Tailwind CSS configuration shared by both `web` and `storybook` workspace
 

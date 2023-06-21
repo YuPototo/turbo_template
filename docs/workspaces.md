@@ -11,8 +11,8 @@ monorepo:
   - storybook: storybook for ui components
 - packages:
   - database: prisma schema and client
-  - eslint-config-custom: eslint preset
+  - eslint-config: eslint preset
   - prettier-config: prettier preset
-  - tailwind: tailwind preset
+  - tailwind-config: tailwind preset
   - tsconfig: tsconfig preset
   - ui: ui components

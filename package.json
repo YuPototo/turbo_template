@@ -9,7 +9,7 @@
     "sortPackageJSON": "sort-package-json 'package.json' 'apps/*/package.json' 'packages/*/package.json'"
   },
   "devDependencies": {
-    "@company-name/eslint-config-custom": "workspace:*",
+    "@company-name/eslint-config": "workspace:*",
     "@turbo/gen": "^1.9.7",
     "eslint": "^8.42.0",
     "prettier": "^2.8.8",
