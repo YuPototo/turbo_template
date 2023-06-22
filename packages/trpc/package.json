@@ -9,6 +9,7 @@
     "@company-name/prisma": "workspace:*",
     "@trpc/client": "^10.31.0",
     "@trpc/server": "^10.31.0",
-    "superjson": "^1.12.3"
+    "superjson": "^1.12.3",
+    "zod": "^3.21.4"
   }
 }

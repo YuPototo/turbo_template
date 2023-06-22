@@ -232,6 +232,9 @@ importers:
       superjson:
         specifier: ^1.12.3
         version: registry.npmmirror.com/superjson@1.12.3
+      zod:
+        specifier: ^3.21.4
+        version: registry.npmmirror.com/zod@3.21.4
 
   packages/ts-config: {}
 
