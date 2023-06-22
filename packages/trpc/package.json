@@ -1,0 +1,14 @@
+{
+  "name": "@company-name/trpc",
+  "version": "0.1.0",
+  "license": "MIT",
+  "main": "./index.ts",
+  "types": "./index.ts",
+  "scripts": {},
+  "dependencies": {
+    "@company-name/prisma": "workspace:*",
+    "@trpc/client": "^10.31.0",
+    "@trpc/server": "^10.31.0",
+    "superjson": "^1.12.3"
+  }
+}

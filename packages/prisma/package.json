@@ -1,5 +1,5 @@
 {
-  "name": "@company-name/database",
+  "name": "@company-name/prisma",
   "version": "0.0.0",
   "main": "./index.ts",
   "types": "./index.ts",
@@ -11,6 +11,8 @@
     "@prisma/client": "latest"
   },
   "devDependencies": {
-    "prisma": "4.15.0"
+    "@company-name/ts-config": "workspace:*",
+    "prisma": "4.15.0",
+    "typescript": "^5.1.3"
   }
 }

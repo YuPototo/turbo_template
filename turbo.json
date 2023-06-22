@@ -18,5 +18,6 @@
     "db:push": {
       "cache": false
     }
-  }
+  },
+  "globalEnv": ["NEXT_PUBLIC_DEBUG", "NODE_ENV", "VERCEL_URL"]
 }
