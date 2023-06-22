@@ -4,7 +4,6 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "storybook build",
     "dev": "storybook dev -p 6006"
   },
   "dependencies": {
