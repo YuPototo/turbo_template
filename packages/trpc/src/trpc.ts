@@ -9,7 +9,8 @@
 import superjson from "superjson";
 import { ZodError } from "zod";
 
-// import { prisma } from "@company-name/prisma";
+import { prisma } from "@company-name/prisma";
+
 import { TRPCError, initTRPC } from "@trpc/server";
 import { type CreateNextContextOptions } from "@trpc/server/adapters/next";
 
@@ -46,7 +47,7 @@ const createInnerTRPCContext = () =>
     return {
       // * 开始接入 nextauth 后，再使用下面的代码
       // session: opts.session,
-      // prisma,
+      prisma,
     };
   };
 
