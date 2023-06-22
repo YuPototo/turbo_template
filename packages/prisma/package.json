@@ -11,6 +11,8 @@
     "@prisma/client": "latest"
   },
   "devDependencies": {
-    "prisma": "4.15.0"
+    "@company-name/ts-config": "workspace:*",
+    "prisma": "4.15.0",
+    "typescript": "^5.1.3"
   }
 }

@@ -1,0 +1,5 @@
+{
+  "extends": "@company-name/ts-config/base.json",
+  "include": ["."],
+  "exclude": ["dist", "build", "node_modules"]
+}
