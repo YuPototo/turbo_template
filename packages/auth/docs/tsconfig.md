@@ -1,13 +1,13 @@
 # tsconfig
 
-In tsconfig, we have this two  compile options:
+In tsconfig, we have this two compile options:
 
 ```json
 {
   "compilerOptions": {
     "allowJs": true,
-    "noEmit": true,
-  },
+    "noEmit": true
+  }
 }
 ```
 

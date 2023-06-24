@@ -12,24 +12,21 @@ npx create-turbo@latest
 
 This Turborepo includes the following packages/apps:
 
-### Apps and Packages
+Apps:
 
-- `web`: another [Next.js](https://nextjs.org/) app
+- `web`: a [Next.js](https://nextjs.org/) app
 - `storybook`: a [Storybook](https://storybook.js.org/) app
-- `ui`: a stub React component library shared by both `web` and `storybook` workspace
-- `eslint-config`: `eslint` configurations (includes `eslint-config-next` and `eslint-config-prettier`)
-- `tsconfig`: `tsconfig.json`s used throughout the monorepo
-- `tailwind`: Tailwind CSS configuration shared by both `web` and `storybook` workspace
 
-Each package/app is 100% [TypeScript](https://www.typescriptlang.org/).
+Packages:
 
-### Utilities
-
-This Turborepo has some additional tools already setup for you:
-
-- [TypeScript](https://www.typescriptlang.org/) for static type checking
-- [ESLint](https://eslint.org/) for code linting
-- [Prettier](https://prettier.io) for code formatting
+- `auth`: auth package
+- `eslint-config`: eslint preset
+- `prettier-config`: prettier preset
+- `prisma`: prisma schema and client
+- `tailwind-config`: tailwind preset
+- `trpc`: trpc
+- `ts-config`: tsconfig preset
+- `ui`: ui components
 
 ### Build
 
