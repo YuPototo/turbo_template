@@ -7,7 +7,8 @@
     "dev": "turbo run dev --concurrency 11",
     "format": "prettier --write \"**/*.{js,ts,tsx,md,json}\"",
     "lint": "turbo run lint",
-    "sortPackageJSON": "sort-package-json 'package.json' 'apps/*/package.json' 'packages/*/package.json'"
+    "sortPackageJSON": "sort-package-json 'package.json' 'apps/*/package.json' 'packages/*/package.json'",
+    "test": "turbo run test"
   },
   "devDependencies": {
     "@company-name/eslint-config": "workspace:*",

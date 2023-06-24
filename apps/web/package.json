@@ -7,6 +7,7 @@
     "dev": "open http://localhost:3000 && pnpm with-env next dev",
     "lint": "dotenv -v SKIP_ENV_VALIDATION=1 next lint",
     "start": "pnpm with-env next start",
+    "test": "vitest run",
     "with-env": "dotenv -e ../../.env --"
   },
   "dependencies": {
@@ -21,7 +22,8 @@
     "next": "^13.4.7",
     "next-auth": "^4.22.1",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "vitest": "^0.32.2"
   },
   "devDependencies": {
     "@company-name/eslint-config": "workspace:*",
@@ -30,8 +32,10 @@
     "@types/node": "^18.16.5",
     "@types/react": "^18.0.22",
     "@types/react-dom": "^18.0.7",
+    "@vitejs/plugin-react": "^4.0.0",
     "autoprefixer": "^10.4.14",
     "dotenv-cli": "^7.2.1",
+    "jsdom": "^22.1.0",
     "postcss": "^8.4.24",
     "tailwindcss": "^3.3.2",
     "typescript": "^5.1.3"
