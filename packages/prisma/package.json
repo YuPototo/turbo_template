@@ -4,14 +4,18 @@
   "main": "./index.ts",
   "types": "./index.ts",
   "scripts": {
-    "db:generate": "prisma generate",
-    "db:push": "prisma db push --skip-generate"
+    "db:generate": "pnpm with-env prisma generate",
+    "db:migrate": "pnpm with-env prisma migrate dev",
+    "db:push": "pnpm with-env prisma db push --skip-generate",
+    "dev": "pnpm with-env prisma studio --port 5556",
+    "with-env": "dotenv -e ../../.env --"
   },
   "dependencies": {
     "@prisma/client": "latest"
   },
   "devDependencies": {
     "@company-name/ts-config": "workspace:*",
+    "dotenv-cli": "^7.2.1",
     "prisma": "4.15.0",
     "typescript": "^5.1.3"
   }

@@ -18,7 +18,7 @@ export const postRouter = createTRPCRouter({
     )
     .mutation(({ ctx, input }) => {
       return ctx.prisma.post.create({
-        data:input,
+        data: input,
       });
     }),
   delete: publicProcedure.input(z.number()).mutation(({ ctx, input }) => {

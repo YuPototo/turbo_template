@@ -7,12 +7,14 @@ In this template, there are following workspaces:
 monorepo:
 
 - apps:
-  - web: a NextJS app
-  - storybook: storybook for ui components
+  - `web`: a NextJS app
+  - `storybook`: storybook for ui components
 - packages:
-  - database: prisma schema and client
-  - eslint-config: eslint preset
-  - prettier-config: prettier preset
-  - tailwind-config: tailwind preset
-  - ts-config: tsconfig preset
-  - ui: ui components
+  - `auth`: auth package
+  - `eslint-config`: eslint preset
+  - `prettier-config`: prettier preset
+  - `prisma`: prisma schema and client
+  - `tailwind-config`: tailwind preset
+  - `trpc`: trpc
+  - `ts-config`: tsconfig preset
+  - `ui`: ui components

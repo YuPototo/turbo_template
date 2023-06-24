@@ -19,5 +19,17 @@
       "cache": false
     }
   },
-  "globalEnv": ["NEXT_PUBLIC_DEBUG", "NODE_ENV", "VERCEL_URL"]
+  "globalEnv": [
+    "DISCORD_CLIENT_ID",
+    "DISCORD_CLIENT_SECRET",
+    "NEXTAUTH_SECRET",
+    "NEXTAUTH_URL",
+    "NEXT_PUBLIC_DEBUG",
+    "NODE_ENV",
+    "VERCEL",
+    "VERCEL_URL",
+    "DATABASE_URL",
+    "CI",
+    "SKIP_ENV_VALIDATION"
+  ]
 }
