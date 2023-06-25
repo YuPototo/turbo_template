@@ -1,5 +1,5 @@
 {
-  "name": "turbo_storybook_template",
+  "name": "turbo_template",
   "private": true,
   "scripts": {
     "build": "turbo run build",
