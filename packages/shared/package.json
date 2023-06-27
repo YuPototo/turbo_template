@@ -9,8 +9,8 @@
     "test": "vitest run"
   },
   "devDependencies": {
-    "@company-name/eslint-config": "workspace:*",
-    "@company-name/ts-config": "workspace",
+    "@company-name/eslint-config": "*",
+    "@company-name/ts-config": "*",
     "eslint": "^8.43.0",
     "typescript": "^5.1.3",
     "vitest": "^0.32.2"

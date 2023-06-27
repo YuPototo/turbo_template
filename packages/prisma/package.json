@@ -14,7 +14,7 @@
     "@prisma/client": "latest"
   },
   "devDependencies": {
-    "@company-name/ts-config": "workspace:*",
+    "@company-name/ts-config": "*",
     "dotenv-cli": "^7.2.1",
     "prisma": "^4.16.1",
     "typescript": "^5.1.3"

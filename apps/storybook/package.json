@@ -7,12 +7,12 @@
     "dev": "storybook dev -p 6006"
   },
   "dependencies": {
-    "@company-name/ui": "workspace:*",
+    "@company-name/ui": "*",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "@company-name/tailwind-config": "workspace:*",
+    "@company-name/tailwind-config": "*",
     "@storybook/addon-essentials": "^7.0.22",
     "@storybook/addon-interactions": "^7.0.22",
     "@storybook/addon-links": "^7.0.22",
