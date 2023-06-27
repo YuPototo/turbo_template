@@ -4,7 +4,9 @@
   "license": "MIT",
   "main": "./index.ts",
   "types": "./index.ts",
-  "scripts": {},
+  "scripts": {
+    "type-check": "tsc --noEmit"
+  },
   "dependencies": {
     "@company-name/auth": "*",
     "@company-name/prisma": "*",
@@ -14,6 +16,7 @@
     "zod": "^3.21.4"
   },
   "devDependencies": {
-    "@company-name/ts-config": "*"
+    "@company-name/ts-config": "*",
+    "typescript": "^5.1.3"
   }
 }

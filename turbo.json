@@ -18,7 +18,10 @@
     "db:push": {
       "cache": false
     },
-    "test": {}
+    "test": {},
+    "type-check": {
+      "cache": false
+    }
   },
   "globalEnv": [
     "DISCORD_CLIENT_ID",
