@@ -1,12 +1,8 @@
 # Turborepo Template
 
-## Using this example
+## Todo
 
-Run the following command:
-
-```sh
-npx create-turbo@latest
-```
+type-check problem
 
 ## What's inside?
 
@@ -33,7 +29,7 @@ Packages:
 To build all apps and packages, run the following command at the root of the monorepo:
 
 ```sh
-pnpm build
+yarn build
 ```
 
 ### Develop
@@ -41,5 +37,5 @@ pnpm build
 To develop all apps and packages, run the following command at the root of the monorepo:
 
 ```sh
-pnpm dev
+yarn dev
 ```

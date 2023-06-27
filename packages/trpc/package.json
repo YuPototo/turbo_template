@@ -4,16 +4,19 @@
   "license": "MIT",
   "main": "./index.ts",
   "types": "./index.ts",
-  "scripts": {},
+  "scripts": {
+    "type-check": "tsc --noEmit"
+  },
   "dependencies": {
-    "@company-name/auth": "workspace:*",
-    "@company-name/prisma": "workspace:*",
+    "@company-name/auth": "*",
+    "@company-name/prisma": "*",
     "@trpc/client": "^10.32.0",
     "@trpc/server": "^10.32.0",
     "superjson": "^1.12.3",
     "zod": "^3.21.4"
   },
   "devDependencies": {
-    "@company-name/ts-config": "workspace:*"
+    "@company-name/ts-config": "*",
+    "typescript": "^5.1.3"
   }
 }

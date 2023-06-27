@@ -1,10 +1,12 @@
 {
   "extends": "@company-name/ts-config/nextjs.json",
   "compilerOptions": {
-    "plugins": [{ "name": "next" }],
+    "plugins": [{ "name": "next"}],
     "paths": {
       "@/*": ["./src/*"]
-    }
+    },
+    // This is required for trpc to be typed correctly
+    "strict": true
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
   "exclude": ["node_modules"]

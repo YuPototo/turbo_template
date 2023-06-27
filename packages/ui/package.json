@@ -8,8 +8,8 @@
     "lint": "eslint \"**/*.ts*\""
   },
   "devDependencies": {
-    "@company-name/eslint-config": "workspace:*",
-    "@company-name/ts-config": "workspace:*",
+    "@company-name/eslint-config": "*",
+    "@company-name/ts-config": "*",
     "@types/react": "^18.2.0",
     "@types/react-dom": "^18.2.0",
     "eslint": "^8.42.0",
