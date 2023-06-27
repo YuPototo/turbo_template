@@ -153,9 +153,6 @@ importers:
       vitest:
         specifier: ^0.32.2
         version: 0.32.2(jsdom@22.1.0)
-      zod:
-        specifier: ^3.21.4
-        version: 3.21.4
     devDependencies:
       '@company-name/eslint-config':
         specifier: workspace:*
