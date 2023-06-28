@@ -1,4 +1,7 @@
 {
   "extends": "@company-name/ts-config/base.json",
+  "compilerOptions": {
+    "allowJs": true,
+  },
   "include": ["src", "index.ts", "transformer.ts"],
 }
