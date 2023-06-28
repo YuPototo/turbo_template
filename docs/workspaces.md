@@ -11,10 +11,12 @@ monorepo:
   - `storybook`: storybook for ui components
 - packages:
   - `auth`: auth package
-  - `eslint-config`: eslint preset
-  - `prettier-config`: prettier preset
+  - `config`: config packages
+    - `eslint-config`: eslint preset
+    - `prettier-config`: prettier preset
+    - `tailwind-config`: tailwind preset
+    - `ts-config`: tsconfig preset
   - `prisma`: prisma schema and client
-  - `tailwind-config`: tailwind preset
+  - `shared`: shared package for test purpose
   - `trpc`: trpc
-  - `ts-config`: tsconfig preset
   - `ui`: ui components
